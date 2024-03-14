@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{ user_profile.name }}</h1>
+    <h4>{{ user_profile.email }}</h4>
+    <h4>{{ user_profile.phone }}</h4>
+    <hr/>
+    <br/>
+    <p><h3><b>ABOUT ME</b></h3></p>
+    <p>{{ user_profile.about }}</p>
+    </br>
+    <hr/>
+    <br/>
+    <p><h3><b>EDUCATION</b></h3></p>
+    <ul>
+        <li><p>Degree: {{ user_profile.degree }}</p></li>
+        <li><p>University: {{ user_profile.university }}</p></li>
+    </ul>
+    <br/>
+    <p><h3><b>Work Experience</b></h3></p>
+    <p>{{ user_profile.work_experience }}</p>
+    <br/>
+    <p><h3><b>SKILLS</b></h3></p>
+    <p>{{ user_profile.skills }}</p>
+</body>
+</html>
